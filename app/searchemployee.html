@@ -1,0 +1,22 @@
+<h1>Search Employee...</h1>
+<table>
+<tr>
+    <td> Enter Employee ID </td>
+</tr>
+<tr>
+    <td>
+        <input type="text" [(ngModel)]="empId1" />  </td>
+        <td><input type= "button" value="search data" (click)="searchData()" /></td>
+   
+</tr>
+<tr>
+    <td>
+        details of Employee are:
+    </td>
+    <td>{{data2.empId1}}</td>
+    <td>{{data2.empName}}</td>
+    <td>{{data2.empSalary}}</td>
+    <td>{{data2.empDepartment}}</td>
+   
+</tr>
+</table>
